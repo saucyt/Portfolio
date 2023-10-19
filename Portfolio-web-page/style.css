@@ -67,8 +67,10 @@ ol{
   margin:auto;
   list-style:none;
 }
+/* last minute adjustment divs */
 .intro{text-align: center;}
 .outro{text-align:center}
+.after{text-align:center}
 
 
 h4{text-align:center;
