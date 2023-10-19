@@ -1,0 +1,89 @@
+html { 
+  height: 100%;
+  width: 100%;
+}
+  
+body{
+  /*background-color: #fefae0;        test color group1*/
+  background-color: #606c38
+}
+
+header{
+  /*background-color:#606c38;         test color group1*/
+  text-align:center;
+  
+}
+main{
+  background-color:#606c38
+  
+}
+
+.photo{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
+.photo img{
+  max-width: 100%;
+  max-height: 100%;
+  height:auto;
+}
+
+p{
+  font-family: sans-serif;
+  color:black;
+  font-size:18px;
+  padding:10px;
+  margin: 0;
+  text-align:left
+    
+}
+
+h3{
+  text-align:center;
+  color:black;
+  font-size:29;
+  
+}
+a1{
+  color:#dda15e
+}
+a{
+  color:#bc6c25
+}
+footer p{ background-color:#606c38;
+  text-align:center;
+ 
+}
+ul{text-align:center;
+   padding: 10px;
+   margin: 0 0 2px;
+  list-style:none}
+li{font-size: 18px;}
+ol{
+  text-align:center;
+  padding: 10px;
+  margin:auto;
+  list-style:none;
+}
+.intro{text-align: center;}
+.outro{text-align:center}
+
+
+h4{text-align:center;
+  color:black;
+  font-size:28;
+  
+}
+
+header h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 42px;
+}
+header h2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size:23px
+}
+
+/* the commented out background colors are from the first initial draft when setting up the theme of the page */ 
