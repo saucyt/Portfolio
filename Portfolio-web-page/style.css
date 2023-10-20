@@ -4,12 +4,10 @@ html {
 }
   
 body{
-  /*background-color: #fefae0;        test color group1*/
   background-color: #606c38
 }
 
 header{
-  /*background-color:#606c38;         test color group1*/
   text-align:center;
   
 }
@@ -17,7 +15,7 @@ main{
   background-color:#606c38
   
 }
-
+/* section for the photo*/
 .photo{
   display:flex;
   justify-content: center;
@@ -29,7 +27,7 @@ main{
   max-height: 100%;
   height:auto;
 }
-
+/* end of photo section*/
 p{
   font-family: sans-serif;
   color:black;
@@ -46,8 +44,7 @@ h3{
   font-size:29;
   
 }
-a1{
-  color:#dda15e
+
 }
 a{
   color:#bc6c25
@@ -67,11 +64,11 @@ ol{
   margin:auto;
   list-style:none;
 }
-/* last minute adjustment divs */
+/* sectionn for styline specific points */
 .intro{text-align: center;}
 .outro{text-align:center}
 .after{text-align:center}
-
+/* end of section*/
 
 h4{text-align:center;
   color:black;
@@ -89,3 +86,13 @@ header h2{
 }
 
 /* the commented out background colors are from the first initial draft when setting up the theme of the page */ 
+
+
+/* added thee pseudo classes to the links so they are reactive */
+
+a:link    { color: #dda15e;  }
+a:visited { color: #bc6c25;   }
+a:hover   { text-decoration: underline;
+          color:#fef501}
+a:active  { color: #26f50a;  }
+a:focus   { outline:2px solid #fef501;  }
